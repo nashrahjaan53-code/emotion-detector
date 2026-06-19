@@ -11,7 +11,7 @@ A lightweight, real-time emotion detection system using your webcam. Built with 
   - Confidence percentage bar graphs for all 7 standard emotions displayed on-screen.
   - A low-confidence warning to suggest better lighting if the model is unsure.
   - Interactive buffer/stability visualization.
-- **Dual Support**: Includes a command-line script ([live_emotion.py](file:///c:/emotion-detector/live_emotion.py)) and an interactive Jupyter Notebook ([emotion_detector.ipynb](file:///c:/emotion-detector/emotion_detector.ipynb)) for exploration.
+- **Multi-Platform Support**: Includes a command-line script ([live_emotion.py](file:///c:/emotion-detector/live_emotion.py)), an interactive Jupyter Notebook ([emotion_detector.ipynb](file:///c:/emotion-detector/emotion_detector.ipynb)), and a modern web application ([app.py](file:///c:/emotion-detector/app.py)) built with Streamlit.
 
 ---
 
@@ -47,7 +47,15 @@ A lightweight, real-time emotion detection system using your webcam. Built with 
 
 ## Usage
 
-### 1. Command-Line Script
+### 1. Streamlit Web Application (Recommended for Web Deployment)
+Run the web application locally:
+```bash
+streamlit run app.py
+```
+- A web page will automatically open in your default browser (usually at `http://localhost:8501`).
+- You can either take a live webcam snapshot or upload any portrait image to analyze emotions dynamically with a modern glassmorphism UI.
+
+### 2. Command-Line Script
 Run the real-time webcam detector:
 ```bash
 python live_emotion.py
@@ -55,13 +63,14 @@ python live_emotion.py
 - The camera window will pop up.
 - Press **Q** on your keyboard inside the window to exit.
 
-### 2. Jupyter Notebook
+### 3. Jupyter Notebook
 If you want to run the detector interactively cell-by-cell or explore the implementation:
 ```bash
 pip install notebook
 jupyter notebook
 ```
 Open `emotion_detector.ipynb` and run the cells.
+
 
 ---
 
