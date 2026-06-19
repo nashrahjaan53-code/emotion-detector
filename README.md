@@ -1,4 +1,4 @@
-# 🎭 Real-Time Emotion Detector
+#  Real-Time Emotion Detector
 
 A lightweight, real-time emotion detection system using your webcam. Built with Python, OpenCV, and the DeepFace library, it analyzes facial expressions to classify emotions into happy, sad, angry, surprised, neutral, fearful, and disgusted states in real-time.
 
