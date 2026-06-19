@@ -1,4 +1,5 @@
-opencv-python
-deepface
 streamlit
+deepface
+opencv-python-headless
+tensorflow
 pandas
