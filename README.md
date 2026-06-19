@@ -18,7 +18,7 @@ A lightweight, real-time emotion detection system using your webcam. Built with 
 ## Installation
 
 ### Prerequisites
-- Python 3.8 or higher.
+- Python 3.9 to 3.12 (Note: TensorFlow is currently not compatible with Python 3.13+).
 - A webcam.
 
 ### Setup
